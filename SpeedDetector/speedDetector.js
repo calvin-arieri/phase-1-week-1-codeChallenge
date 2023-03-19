@@ -28,14 +28,14 @@ function speedMessage(driverSpeed){
     }
 
     else if(demeritPoints>11){
-        message = "Lisence suspended"
+        message = "Lisence suspended";
     }
 
     else{
-        message= `Ok`
+        message= `Ok`;
     }
 
-    return message
+    return message;
 }
 
 //calling the function
