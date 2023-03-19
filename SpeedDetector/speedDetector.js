@@ -39,6 +39,6 @@ function speedMessage(driverSpeed){
 }
 
 //calling the function
-speedMessage(speed)
+console.log(speedMessage(speed))
 
 

@@ -30,5 +30,5 @@
 //prompt user to enter grade
 let score= prompt("Enter your marks: ")
 // calling the function
-gradeStudent(score)
+console.log(gradeStudent(score))
 
