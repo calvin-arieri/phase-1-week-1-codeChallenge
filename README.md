@@ -52,11 +52,8 @@ To install the program follow the steps below:
 
 ### Author & lisence
 
-#### Authors
 The Author of this program is Morebu Calvin Arieri. In case of any issues you can contact me through my email morebucalvin@outlook.com. You are allowed to contribute to the code and make it better.
  
-#### lisence 
-Copyright (c) 2022 calvin Arieri
 
  
 
