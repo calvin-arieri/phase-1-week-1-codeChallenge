@@ -50,7 +50,7 @@ To install the program follow the steps below:
     7. Paste the code in the compiler then click on run.
     8. Clear data entered click on run again.
 
-### Author & lisence
+## Author & lisence
 
 The Author of this program is Morebu Calvin Arieri. In case of any issues you can contact me through my email morebucalvin@outlook.com. You are allowed to contribute to the code and make it better.
  
