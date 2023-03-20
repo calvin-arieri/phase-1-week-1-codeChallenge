@@ -1,28 +1,28 @@
-//Input speed
+//Getting drivers speed
 let speed = prompt("enter speed: ")
 
-//Function that calculates merit point 
+//Calculating demerit point and determining the output message.
  
 function speedMessage(driverSpeed){
-    // setting the speed limit of 
+   //Defining speed limit 
     let speedLimit = 70 ;
     
-    //setting the rate of demerit points
     let oneDemeritPoint =5;
 
     // Calculating demerit points
     if(driverSpeed>speedLimit){
 
-        //Calculating speed above the limit
+        //Calculation of speed above the speedlimit
         speedDifference = driverSpeed - speedLimit
-        //calculating the demerit points
+
+        //calculation of demerit points.
         demeritPoints= speedDifference / oneDemeritPoint
     }
     else {
         demeritPoints= 0
     }
 
-    //output according to speed
+    //Determining the output message according to the demerit points
     if(demeritPoints>0.9 && demeritPoints<=11){
         message =`Points: ${demeritPoints} `;
     }
