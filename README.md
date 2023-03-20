@@ -1,54 +1,32 @@
 # phase-1-week-1-codeChallenge
-This repository has three programmes that calculate net salary of a person, calculate demerit point of a driver and gives back a feedback and generates the grade of a student.
+This repository has three programs the first program grades a student , second program detects the speed of a driver and the third program calculates the net salary.
 
 ## Program 1: Student grade generator
 
 ### Description
- This programme takes in the marks of a student and chooses the grade which the student has. The student is required to enter there marks and then the program will genarate the grade he /she has.
+This program grades a student according to there marks. The student is required to enter their marks and the program will grade them.
 
 ### How to install and use it.
-To install the program follow the steps below:
-    1.Clone this this repository into your device.
-    2.Navigate to student grade generator folder using terminal.
-    3. Once you are inside the folder type "code ." in your terminal.
-    4. Open the grading.js.
-    5. Copy the code.
-    6. Open a new tab in your browser.Use the link https://www.programiz.com/javascript/online-compiler/ to open javascript online compiler.
-    7. Paste the code in the compiler then click on run.
-    8. Clear data entered click on run again.
+To install and use the program Clone this this repository into your device.Navigate to student grade generator folder using terminal.Once you are inside the folder type "code ." in your terminal.Open the grading.js.
+Copy the code.Open a new tab in your browser.Use the link https://www.programiz.com/javascript/online-compiler/ to open javascript online compiler.Paste the code in the compiler then click on run.Clear data entered click on run again.
 
 ## Program 2: Speed detector
 
 ### Description
- This programme takes in the speed of a student and chooses the message to the driver . The driver is required to enter speed and then the program will genarate the required message.
+ This program is ment to detect the speed of the driver. It takes in the speed of a driver as an input then checks if the driver has passed the speed limit. If the drivers speed is 70 or below the program will display 'ok'.If the speed is above 70 demerit point is calculated in the rate 1 demerit is given per every 5km/s above 70. If the demerit points are below 12 your demerit points will be output.If you demerit points are above or equal to twelve it will output the message 'lisence suspended'
 
 ### How to install and use it.
-To install the program follow the steps below:
-    1. Clone if you had not cloned the repository above
-    2.Navigate to speedDetector folder using terminal.
-    3. Once you are inside the folder type "code ." in your terminal.
-    4. Open the speedDetector.js.
-    5. Copy the code.
-    6. Open a new tab in your browser.Use the link https://www.programiz.com/javascript/online-compiler/ to open javascript online compiler.
-    7. Paste the code in the compiler then click on run.
-    8. Clear data entered click on run again.
+To install and use this program Clone if you had not cloned the repository aboveNavigate to speedDetector folder using terminal.Once you are inside the folder type "code ." in your terminal.Open the speedDetector.js.
+Copy the code.Open a new tab in your browser.Use the link https://www.programiz.com/javascript/online-compiler/ to open javascript online compiler.Paste the code in the compiler then click on run.Clear data entered click on run again.
 
 ## Program 3: Net salary calculator
 
 ### Description
- This programme takes in the salary and benefits and calculates the gross pay,tax deductions, NHIF deductions, NSSF deductions and the net pay. The user is required to enter there basic salary and the benefits.
+ This program takes in the basic salary and benefits and calculates the gross pay,tax deductions, NHIF deductions, NSSF deductions and the net pay. The user is required to enter there basic salary and the benefits .
 
 
 ### How to install and use it.
-To install the program follow the steps below:
-    1. Clone if you had not cloned the repository above
-    2.Navigate to netSalaryCalculator folder using terminal.
-    3. Once you are inside the folder type "code ." in your terminal.
-    4. Open the speedDetector.js.
-    5. Copy the code.
-    6. Open a new tab in your browser.Use the link https://www.programiz.com/javascript/online-compiler/ to open javascript online compiler.
-    7. Paste the code in the compiler then click on run.
-    8. Clear data entered click on run again.
+To install and use the program Clone if you had not cloned the repository above Navigate to netSalaryCalculator folder using terminal.Once you are inside the folder type "code ." in your terminal.Open the netSalaryCalculator.js .Copy the code.Open a new tab in your browser.Use the link https://www.programiz.com/javascript/online-compiler/ to open javascript online compiler.Paste the code in the compiler then click on run.Clear data entered click on run again.
 
 ## Author & lisence
 
