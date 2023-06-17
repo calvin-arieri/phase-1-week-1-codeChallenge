@@ -1,31 +1,28 @@
  //student grading function
  function gradeStudent(marks){
-    //checking where the marks lie
-    //range 80-100
+function calculateGrades(marks){
     if(marks > 79 && marks <= 100){
-        grade = "A";
+        return "A";
     }
-    //range 60-79
     else if(marks <= 79 && marks >= 60){
-        grade = "B";
+        return "B";
     }
-    //range 49-59
     else if(marks <= 59 && marks >= 49){
-        grade = "c";
+        return "c";
     }
-    //range 40-48
     else if(marks <= 48 && marks >= 40){
-        grade = "D";
+        return "D";
     }
-    //less than or equal to 39
     else if(marks < 40){
-        grade = "E";
+        return "E";
     }
-    // any value outside the range of 0 - 100
     else {
-        grade = "Invalid grade input"
+        return "Invalid grade input"
     }
-    return grade;
+}
+
+let grade = prompt('Enter grade: ')
+console.log(calculateGrades(grade))
  }
 //prompt user to enter grade
 let score= prompt("Enter your marks: ")
