@@ -1,6 +1,5 @@
  //student grading function
  function gradeStudent(marks){
-function calculateGrades(marks){
     if(marks > 79 && marks <= 100){
         return "A";
     }
@@ -21,9 +20,7 @@ function calculateGrades(marks){
     }
 }
 
-let grade = prompt('Enter grade: ')
-console.log(calculateGrades(grade))
- }
+
 //prompt user to enter grade
 let score= prompt("Enter your marks: ")
 // calling the function
